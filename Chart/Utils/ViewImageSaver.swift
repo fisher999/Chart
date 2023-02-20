@@ -37,7 +37,7 @@ class ViewImageSaver: NSObject {
         )
     }
     
-    private @objc func saveCompleted(
+    @objc private func saveCompleted(
         _ image: UIImage,
         didFinishSavingWithError error: Error?,
         contextInfo: UnsafeRawPointer
